@@ -1,24 +1,50 @@
 {
-  "name": "feathersConnector",
-  "version": "0.0.1",
+  "name": "react-native-feathers-connector",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sscaff1/react-native-feathers-connector/",
+  "main": "lib/",
+  "keywords": [
+    "feathers",
+    "feathers-react-native",
+    "feathers-react-native-connect",
+    "react-native-connect"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sscaff1/react-native-feathers-connector.git"
+  },
+  "author": {
+    "name": "Steven Scaffidi",
+    "email": "sscaff1@gmail.com",
+    "url": "http://telaedge.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sscaff1/react-native-feathers-connector/issues"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "compile": "rm -rf lib/ && babel -d lib/ src/"
+  },
   "dependencies": {
-    "feathers": "^2.0.1",
-    "feathers-authentication": "^0.7.8",
-    "feathers-hooks": "^1.5.4",
-    "feathers-socketio": "^1.4.1",
-    "react": "^15.1.0",
-    "react-native": "^0.27.2",
-    "socket.io-client": "^1.4.6"
+    "feathers": "^2.0.3",
+    "feathers-authentication-client": "^0.1.6",
+    "feathers-hooks": "^1.7.1",
+    "feathers-socketio": "^1.4.2",
+    "react": "^15.4.1",
+    "react-native": ">= 0.29.0",
+    "socket.io-client": "^1.7.2"
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react-native": "^1.9.0",
+    "babel-preset-react-native": "1.9.0",
     "babel-preset-react-native-stage-0": "^1.0.1",
-    "eslint": "^2.12.0",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.8.1",
-    "eslint-plugin-jsx-a11y": "^1.4.2",
-    "eslint-plugin-react": "^5.0.1"
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-react-native": "^2.2.0"
   }
 }

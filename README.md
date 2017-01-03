@@ -8,17 +8,11 @@ const HelloWorld = ({ feathers }) => {
   return <Text>Hello World</Text>
 }
 
-connectFeathers(HelloWorld)
+connectFeathers(HelloWorld);
 ```
+
+Make sure to wrap your app in a `<FeathersWrapper />` component at the highest level.
 
 If you look at your RN debugger, you should see a feathers object. That's it. You can also pass in an endpoint option.
-```
-connectFeathers(HelloWorld, { endpoint: 'http://localhost:5000' }); 
-```
-The default endpoint is http://localhost:3000/
-
-Future:
-1. Create an NPM package.
-2. Allow for additional options (loading screens).
 
 Help is always welcome and appreciated.
