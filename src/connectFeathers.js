@@ -19,11 +19,9 @@ export default function connectFeathers(WrappedComponent) {
       return this._ref;
     }
 
-
     render() {
       return createElement(WrappedComponent, {
         feathers: this.feathers,
-        ...this.state,
         ...this.props,
         ref: ref => (this._ref = ref),
       });

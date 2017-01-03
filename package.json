@@ -33,7 +33,7 @@
     "feathers-authentication-client": "^0.1.6",
     "feathers-hooks": "^1.7.1",
     "feathers-socketio": "^1.4.2",
-    "react": "^15.4.1",
+    "react": ">= 15.3.0",
     "react-native": ">= 0.29.0",
     "socket.io-client": "^1.7.2"
   },
