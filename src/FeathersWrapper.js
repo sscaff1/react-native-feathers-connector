@@ -64,7 +64,6 @@ export default class FeathersWrapper extends Component {
       this._connectionStatus = 'connected';
       this._clearTimeout();
       this.forceUpdate();
-      this.app.authenticate();
     });
     this.app.io.on('disconnect', () => {
       this._connected = false;
